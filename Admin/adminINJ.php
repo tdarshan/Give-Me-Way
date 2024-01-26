@@ -108,7 +108,7 @@
             }
         }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxuoisgiSxSZYFex3MIY-yV7rTkp91mEc&callback=initMap&libraries=&v=weekly" async> </script>
+    <script src='process.env.MAP_KEY' async> </script>
 </body>
 
 </html>
